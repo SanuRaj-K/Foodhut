@@ -1,3 +1,14 @@
+*{
+    scrollbar-width: none;
+} 
+
+ 
  .flexBtw {
      @apply flex justify-between
  }
+
+ .bg-spotlight {
+     background-image: url(./assets/images/Landing-Background.jpg);
+ }
+
+  

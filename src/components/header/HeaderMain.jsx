@@ -7,20 +7,20 @@ function HeaderMain() {
     <div>
       <div className="flexBtw">
         <div>
-          <h2 className=" text-[#5CA26E] text-[56px] capitalize cursor-pointer">
+          <h2 className=" text-[#5CA26E] hover:text-green-700 text-[56px] capitalize cursor-pointer">
             organic
           </h2>
         </div>
-        <div className=" flexBtw">
+        <div className=" flexBtw items-center">
           <div>
-            <ul className=" flexBtw">
+            <ul className=" flexBtw mr-36">
               {nav?.map((item, index) => (
-                <li className=" mx-3" key={index}>{item}</li>
+                <li className=" cursor-pointer mx-3 last:mx-0 capitalize font-semibold hover:border-black hover:border-t-2" key={index}>{item}</li>
               ))}
             </ul>
           </div>
-          <div className="flex items-center">
-            <span>cart</span>
+          <div className="flexBtw items-center cursor-pointer">
+            <span className=" uppercase mr-3">cart</span>
             <img className=" w-8" src={Cart} alt="cart" />
           </div>
         </div>

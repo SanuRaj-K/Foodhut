@@ -10,7 +10,7 @@ import GreenMusk from "../assets/images/Green-Muskmelon.png";
 import GreenPear from "../assets/images/Green-Pear.png";
 import Kiwi from "../assets/images/Kiwi.png";
 import LandingBG from "../assets/images/Landing-Background.jpg";
-import Landing1 from "../assets/images/Landing-Background.jpg";
+import Landing1 from "../assets/images/Landing-img-1.jpg";
 import Landing2 from "../assets/images/Landing-img-2.jpg";
 import MilkIMG from "../assets/images/Milk.png";
 import Olive from "../assets/images/Olive.png";
@@ -29,7 +29,7 @@ export {
   Dates,
   Tomato,
   Sale,
-  Pineapple,
+  Pineapple,    
   Pasta,
   Olive,
   MilkIMG,

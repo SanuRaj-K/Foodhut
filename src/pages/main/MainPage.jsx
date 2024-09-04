@@ -2,6 +2,7 @@ import React from "react";
 import HeaderOne from "../../components/header/HeaderOne";
 import HeaderTwo from "../../components/header/HeaderTwo";
 import HeaderMain from "../../components/header/HeaderMain";
+import SpotLight from "../../components/spotlilght";
 
 function MainPage() {
   return (
@@ -12,9 +13,9 @@ function MainPage() {
           <div className=" my-5">
             <HeaderTwo />
           </div>
-
           <HeaderMain />
         </div>
+        <SpotLight />
       </div>
     </main>
   );
