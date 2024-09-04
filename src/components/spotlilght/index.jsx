@@ -3,7 +3,7 @@ import { Landing1, Landing2 } from "../../data/imageData";
 
 function SpotLight() {
   return (
-    <div className=" flex flex-col bg-spotlight h-screen bg-cover bg-no-repeat w-full">
+    <div className=" mt-7 flex flex-col bg-spotlight h-screen bg-cover bg-no-repeat w-full">
       <div className=" h-full px-10 flex  justify-between items-center mx-auto">
         <div className=" pr-9 relative  ">
           <img src={Landing1} alt="pic" />
@@ -28,7 +28,7 @@ function SpotLight() {
               </p>
             </div>
             <div>
-              <button className=" hover:text-black   bg-[#5CA26E] text-white px-7 text-center py-2 ">
+              <button className=" hover:text-black  hover:rounded-lg  bg-[#5CA26E] text-white px-7 text-center py-2 ">
                 Shop Now
               </button>
             </div>

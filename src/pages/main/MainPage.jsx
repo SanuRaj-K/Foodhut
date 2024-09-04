@@ -3,6 +3,7 @@ import HeaderOne from "../../components/header/HeaderOne";
 import HeaderTwo from "../../components/header/HeaderTwo";
 import HeaderMain from "../../components/header/HeaderMain";
 import SpotLight from "../../components/spotlilght";
+import Category from "../../components/category";
 
 function MainPage() {
   return (
@@ -16,6 +17,10 @@ function MainPage() {
           <HeaderMain />
         </div>
         <SpotLight />
+        <div className=" mx-14">
+        <Category />
+        </div>
+        
       </div>
     </main>
   );
