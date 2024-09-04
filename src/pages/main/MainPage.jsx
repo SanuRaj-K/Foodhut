@@ -10,17 +10,19 @@ function MainPage() {
     <main className=" font-inter">
       <div className=" bg-white">
         <div className=" px-5 ">
-          <HeaderOne />
-          <div className=" my-5">
+          <div className=" hidden md:block">
+            <HeaderOne />
+          </div>
+
+          <div className=" hidden md:block my-5 ">
             <HeaderTwo />
           </div>
           <HeaderMain />
         </div>
         <SpotLight />
         <div className=" mx-14">
-        <Category />
+          <Category />
         </div>
-        
       </div>
     </main>
   );

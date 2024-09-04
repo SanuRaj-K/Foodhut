@@ -3,7 +3,7 @@ import { categoryData } from "../../data/categoryData";
 
 function CategoryCard() {
   return (
-    <div className="  py-10 flex justify-between items-center">
+    <div className="  py-10 md:flex grid grid-cols-2 gap-7  md:justify-between items-center">
       {categoryData?.map((item, index) => (
         <div
           key={index}

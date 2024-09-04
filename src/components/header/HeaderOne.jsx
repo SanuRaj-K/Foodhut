@@ -2,7 +2,7 @@ import React from "react";
 
 function HeaderOne() {
   return (
-    <div className=" flex justify-between  font-[500]">
+    <div className=" flex justify-between   font-[500]">
       <div className=" cursor-pointer">
         <span>Facebook</span>
         <span className=" mx-4">Instagram</span>
